@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+
+}
+
+.box-big{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    position: relative;
+
+}
+
+.box-position{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

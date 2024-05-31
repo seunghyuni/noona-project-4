@@ -1,0 +1,29 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+
+}
+
+.box-big{
+    width: 400px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    position: absolute;
+
+}
+
+.box-top{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.box-bottom{
+    position: absolute;
+    bottom: 0px;
+
+}

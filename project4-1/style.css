@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.box-center{
+    align-self: center;
+}
+
+.box-end{
+    align-self: flex-end;
+}

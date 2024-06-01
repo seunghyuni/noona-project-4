@@ -1,19 +1,22 @@
 .main{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .box{
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: cornflowerblue;
     color: white;
 }
 
-.box-center{
-    align-self: center;
+.sub-main{
+    display: flex;
 }
 
-.box-end{
-    align-self: flex-end;
+.mr-5{
+    margin-right: 5px;
 }
+
+
+

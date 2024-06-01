@@ -1,27 +1,19 @@
 .main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .box{
     width: 100px;
     height: 100px;
-    background-color: purple;
+    background-color: blue;
     color: white;
-
 }
 
-.box-big{
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    color: white;
-    position: relative;
-
+.box-center{
+    align-self: center;
 }
 
-.box-position{
-    position: absolute;
-    top: 50px;
-    left: 50px;
+.box-end{
+    align-self: flex-end;
 }
